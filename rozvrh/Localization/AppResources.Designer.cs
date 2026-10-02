@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace rozvrh {
+namespace rozvrh.Localization {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace rozvrh {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Prima {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Prima() {
+        internal AppResources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace rozvrh {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("rozvrh.Prima", typeof(Prima).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("rozvrh.Localization.AppResources", typeof(AppResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to rozvrh - расписание.
+        ///   Looks up a localized string similar to rozvrh - schedule.
         /// </summary>
         public static string appHeader {
             get {
@@ -70,16 +70,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сменить язык.
-        /// </summary>
-        public static string changelang {
-            get {
-                return ResourceManager.GetString("changelang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Проверьте ввод.
+        ///   Looks up a localized string similar to Check your enter.
         /// </summary>
         public static string checklesson {
             get {
@@ -88,7 +79,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Удалено..
+        ///   Looks up a localized string similar to Deleted..
         /// </summary>
         public static string deleted {
             get {
@@ -97,7 +88,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to cброс настроек.
+        ///   Looks up a localized string similar to Clean schedule data.
         /// </summary>
         public static string deletesettings {
             get {
@@ -106,7 +97,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Готово, I&apos;ve ملأت.
+        ///   Looks up a localized string similar to Enter.
         /// </summary>
         public static string enterlesson {
             get {
@@ -115,7 +106,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to п&apos;ятниця.
+        ///   Looks up a localized string similar to friday.
         /// </summary>
         public static string friday {
             get {
@@ -124,7 +115,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Урок.
+        ///   Looks up a localized string similar to Lesson.
         /// </summary>
         public static string lesson {
             get {
@@ -133,7 +124,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to урок..
+        ///   Looks up a localized string similar to lesson..
         /// </summary>
         public static string lesson1 {
             get {
@@ -142,7 +133,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to урока..
+        ///   Looks up a localized string similar to lessons..
         /// </summary>
         public static string lesson24 {
             get {
@@ -151,7 +142,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to уроков..
+        ///   Looks up a localized string similar to lessons..
         /// </summary>
         public static string lessonoth {
             get {
@@ -160,7 +151,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Энтер зэ лэссон тайтл.
+        ///   Looks up a localized string similar to Enter the lesson title..
         /// </summary>
         public static string lessontitle {
             get {
@@ -169,7 +160,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to понедiлок.
+        ///   Looks up a localized string similar to monday.
         /// </summary>
         public static string monday {
             get {
@@ -178,7 +169,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Не удалено..
+        ///   Looks up a localized string similar to Not deleted.
         /// </summary>
         public static string notdeleted {
             get {
@@ -187,7 +178,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Вы точно хотите сбросить все настройки? Их нельзя будет вернуть!.
+        ///   Looks up a localized string similar to Are you really wanna clean schedule data? You cannot restore it!.
         /// </summary>
         public static string sbrosclickbody {
             get {
@@ -196,7 +187,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ВНИМАНИЕ.
+        ///   Looks up a localized string similar to WARNING.
         /// </summary>
         public static string sbrosclickheader {
             get {
@@ -205,7 +196,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to параметри.
+        ///   Looks up a localized string similar to settings.
         /// </summary>
         public static string settings {
             get {
@@ -214,7 +205,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to четвер.
+        ///   Looks up a localized string similar to thursday.
         /// </summary>
         public static string thursday {
             get {
@@ -223,7 +214,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сегодня .
+        ///   Looks up a localized string similar to Today .
         /// </summary>
         public static string today {
             get {
@@ -232,7 +223,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to уникальное трио - название чешское, заголовки украинские, ну а этот текст... русский!.
+        ///   Looks up a localized string similar to in fact: there was a funny locale, called [Prima], or [funx100]..
         /// </summary>
         public static string trio {
             get {
@@ -241,7 +232,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to вівторок.
+        ///   Looks up a localized string similar to tuesday.
         /// </summary>
         public static string tuesday {
             get {
@@ -250,7 +241,7 @@ namespace rozvrh {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to середа.
+        ///   Looks up a localized string similar to wednesday.
         /// </summary>
         public static string wednesday {
             get {

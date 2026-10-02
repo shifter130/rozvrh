@@ -118,69 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="appHeader" xml:space="preserve">
-    <value>rozvrh - расписание</value>
-  </data>
-  <data name="changelang" xml:space="preserve">
-    <value>Сменить язык</value>
+    <value>rozvrh - schedule</value>
   </data>
   <data name="checklesson" xml:space="preserve">
-    <value>Проверьте ввод</value>
+    <value>Check your enter</value>
   </data>
   <data name="deleted" xml:space="preserve">
-    <value>Удалено.</value>
+    <value>Deleted.</value>
   </data>
   <data name="deletesettings" xml:space="preserve">
-    <value>cброс настроек</value>
+    <value>Clean schedule data</value>
   </data>
   <data name="enterlesson" xml:space="preserve">
-    <value>Готово, я ввёл</value>
+    <value>Enter</value>
   </data>
   <data name="friday" xml:space="preserve">
-    <value>пятница</value>
+    <value>friday</value>
   </data>
   <data name="lesson" xml:space="preserve">
-    <value>Урок</value>
+    <value>Lesson</value>
   </data>
   <data name="lesson1" xml:space="preserve">
-    <value>урок.</value>
+    <value>lesson.</value>
   </data>
   <data name="lesson24" xml:space="preserve">
-    <value>урока.</value>
+    <value>lessons.</value>
   </data>
   <data name="lessonoth" xml:space="preserve">
-    <value>уроков.</value>
+    <value>lessons.</value>
   </data>
   <data name="lessontitle" xml:space="preserve">
-    <value>Введите название урока</value>
+    <value>Enter the lesson title.</value>
   </data>
   <data name="monday" xml:space="preserve">
-    <value>понедельник</value>
+    <value>monday</value>
   </data>
   <data name="notdeleted" xml:space="preserve">
-    <value>Не удалено.</value>
+    <value>Not deleted</value>
   </data>
   <data name="sbrosclickbody" xml:space="preserve">
-    <value>Вы точно хотите сбросить все настройки? Их нельзя будет вернуть!</value>
+    <value>Are you really wanna clean schedule data? You cannot restore it!</value>
   </data>
   <data name="sbrosclickheader" xml:space="preserve">
-    <value>ВНИМАНИЕ</value>
+    <value>WARNING</value>
   </data>
   <data name="settings" xml:space="preserve">
-    <value>параметры</value>
+    <value>settings</value>
   </data>
   <data name="thursday" xml:space="preserve">
-    <value>четверг</value>
+    <value>thursday</value>
   </data>
   <data name="today" xml:space="preserve">
-    <value>Сегодня </value>
+    <value>Today </value>
   </data>
   <data name="trio" xml:space="preserve">
-    <value>уникальное трио - название чешское, заголовки украинские, ну а этот текст... русский!</value>
+    <value>in fact: there was a funny locale, called [Prima], or [funx100].</value>
   </data>
   <data name="tuesday" xml:space="preserve">
-    <value>вторник</value>
+    <value>tuesday</value>
   </data>
   <data name="wednesday" xml:space="preserve">
-    <value>среда</value>
+    <value>wednesday</value>
   </data>
 </root>

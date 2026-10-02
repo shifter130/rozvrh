@@ -8,6 +8,8 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.IO.IsolatedStorage;
+using System.IO;
+using rozvrh.Localization;
 
 namespace rozvrh
 {
@@ -33,7 +35,7 @@ namespace rozvrh
         {
             IsolatedStorageSettings settings = IsolatedStorageSettings.ApplicationSettings;
             if (lessontitle.Text == "") {
-                MessageBox.Show("У чистому полі порожнеча, порожнеча, порожнеча...", "Проверьте ввод", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.checklesson, AppResources.checklesson, MessageBoxButton.OK);
                 return;
             }
             if (settings.Contains(ob))

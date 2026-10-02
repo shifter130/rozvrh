@@ -12,6 +12,10 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using System.IO.IsolatedStorage;
 using Microsoft.Phone.Shell;
+using System.IO;
+using System.Resources;
+using System.Reflection;
+using rozvrh.Localization;
 
 namespace rozvrh
 {
@@ -41,11 +45,11 @@ namespace rozvrh
                         string subjectName;
                         if (settings.TryGetValue<string>(key, out subjectName) && !string.IsNullOrWhiteSpace(subjectName))
                         {
-                            txtBlock.Text = "Урок " + lessonNum + ": " + subjectName;
+                            txtBlock.Text = AppResources.lesson + " " + lessonNum + ": " + subjectName;
                         }
                         else
                         {
-                            txtBlock.Text = "Урок " + lessonNum + ": —";
+                            txtBlock.Text = AppResources.lesson + " " + lessonNum + ": —";
                         }
                     }
                 }
@@ -60,9 +64,9 @@ namespace rozvrh
 
         private void sbros_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Вы точно хотите сбросить все настройки? Их нельзя будет вернуть!", "ВНИМАНИЕ", MessageBoxButton.OKCancel);
+            MessageBoxResult result = MessageBox.Show(AppResources.sbrosclickbody, AppResources.sbrosclickheader, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK) {
-                MessageBox.Show("Удалено.");
+                MessageBox.Show(AppResources.deleted);
                 IsolatedStorageSettings.ApplicationSettings.Clear();
                 IsolatedStorageSettings.ApplicationSettings.Save();
                 LoadSchedule();
@@ -70,11 +74,11 @@ namespace rozvrh
             }
             if (result == MessageBoxResult.Cancel)
             {
-                MessageBox.Show("Не удалено.");
+                MessageBox.Show(AppResources.notdeleted);
             }
         }
 
-        private void Lesson_Tap(object sender, GestureEventArgs e)
+        private void Lesson_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             FrameworkElement element = sender as FrameworkElement;
 
@@ -129,7 +133,7 @@ namespace rozvrh
                     Count = lessonCount,
 
                     BackTitle = "rozvrh",
-                    BackContent = "Сегодня " + lessonCount + " " + GetLessonDeclension(lessonCount)
+                    BackContent = AppResources.today + lessonCount + " " + GetLessonDeclension(lessonCount)
                 };
 
                 mainTile.Update(tileData);
@@ -142,15 +146,17 @@ namespace rozvrh
             int lastTwoDigits = count % 100;
 
             if (lastTwoDigits >= 11 && lastTwoDigits <= 19)
-                return "уроков.";
+                return AppResources.lessonoth;
 
             if (lastDigit == 1)
-                return "урок.";
+                return AppResources.lesson1;
 
             if (lastDigit >= 2 && lastDigit <= 4)
-                return "урока.";
+                return AppResources.lesson24;
 
-            return "уроков.";
+            return AppResources.lessonoth;
         }
+
+
     }
 }

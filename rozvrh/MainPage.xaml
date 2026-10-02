@@ -20,8 +20,8 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <controls:Panorama HorizontalAlignment="Left" Height="748" Margin="10,10,0,0" Title="rozvrh - расписание" VerticalAlignment="Top" Width="460" Grid.RowSpan="2">
-            <controls:PanoramaItem Header="понеділок">
+        <controls:Panorama HorizontalAlignment="Left" Height="748" Margin="10,10,0,0" Title="{Binding LocalizedResources.appHeader, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Width="460" Grid.RowSpan="2">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.monday, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="400">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="66*"></RowDefinition>
@@ -41,7 +41,7 @@
                     <TextBlock x:Name="pnd7" HorizontalAlignment="Left" Margin="10,10,0,-5" TextWrapping="Wrap" Text="Урок 7:" VerticalAlignment="Top" Height="46" Width="380" FontFamily="Segoe WP Light" FontSize="36" Grid.Row="6" Tap="Lesson_Tap"/>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="вівторок">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.tuesday, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="400">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="66*"></RowDefinition>
@@ -61,7 +61,7 @@
                     <TextBlock x:Name="vto7" HorizontalAlignment="Left" Margin="10,10,0,-5" TextWrapping="Wrap" Text="Урок 7:" VerticalAlignment="Top" Height="46" Width="380" FontFamily="Segoe WP Light" FontSize="36" Grid.Row="6" Tap="Lesson_Tap"/>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="середа">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.wednesday, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="400">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="66*"></RowDefinition>
@@ -81,7 +81,7 @@
                     <TextBlock x:Name="sre7" HorizontalAlignment="Left" Margin="10,10,0,-5" TextWrapping="Wrap" Text="Урок 7:" VerticalAlignment="Top" Height="46" Width="380" FontFamily="Segoe WP Light" FontSize="36" Grid.Row="6" Tap="Lesson_Tap"/>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="четвер">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.thursday, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="400">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="66*"></RowDefinition>
@@ -101,7 +101,7 @@
                     <TextBlock x:Name="chet7" HorizontalAlignment="Left" Margin="10,10,0,-5" TextWrapping="Wrap" Text="Урок 7:" VerticalAlignment="Top" Height="46" Width="380" FontFamily="Segoe WP Light" FontSize="36" Grid.Row="6" Tap="Lesson_Tap"/>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="п'ятниця">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.friday, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="400">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="66*"></RowDefinition>
@@ -121,11 +121,11 @@
                     <TextBlock x:Name="pyat7" HorizontalAlignment="Left" Margin="10,10,0,-5" TextWrapping="Wrap" Text="Урок 7:" VerticalAlignment="Top" Height="46" Width="380" FontFamily="Segoe WP Light" FontSize="36" Grid.Row="6" Tap="Lesson_Tap"/>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="параметри">
+            <controls:PanoramaItem Header="{Binding LocalizedResources.settings, Mode=OneWay, Source={StaticResource LocalizedStrings}}">
                 <Grid>
-                    <Button x:Name="sbros" Content="сброс настроек" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" Click="sbros_Click"/>
+                    <Button x:Name="sbros" Content="{Binding LocalizedResources.deletesettings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" Click="sbros_Click"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding LocalizedResources.trio, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Margin="10,82,0,0" Height="72" Width="380"/>
                     <Image x:Name="skebob" HorizontalAlignment="Left" Height="287" Margin="0,159,0,0" VerticalAlignment="Top" Width="400" Source="/skebob.jpg" Stretch="Fill"/>
-                    <Button Content="Сменить язык" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="380"/>
                 </Grid>
             </controls:PanoramaItem>
         </controls:Panorama>

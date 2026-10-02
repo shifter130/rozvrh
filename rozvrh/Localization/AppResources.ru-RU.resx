@@ -120,23 +120,20 @@
   <data name="appHeader" xml:space="preserve">
     <value>rozvrh - расписание</value>
   </data>
-  <data name="changelang" xml:space="preserve">
-    <value>Сменить язык</value>
-  </data>
   <data name="checklesson" xml:space="preserve">
     <value>Проверьте ввод</value>
   </data>
   <data name="deleted" xml:space="preserve">
-    <value>Удалено.</value>
+    <value>Удалено</value>
   </data>
   <data name="deletesettings" xml:space="preserve">
-    <value>cброс настроек</value>
+    <value>Очистить расписание</value>
   </data>
   <data name="enterlesson" xml:space="preserve">
-    <value>Готово, I've ملأت</value>
+    <value>Продолжить</value>
   </data>
   <data name="friday" xml:space="preserve">
-    <value>п'ятниця</value>
+    <value>пятница</value>
   </data>
   <data name="lesson" xml:space="preserve">
     <value>Урок</value>
@@ -151,36 +148,36 @@
     <value>уроков.</value>
   </data>
   <data name="lessontitle" xml:space="preserve">
-    <value>Энтер зэ лэссон тайтл</value>
+    <value>Введите название урока</value>
   </data>
   <data name="monday" xml:space="preserve">
-    <value>понедiлок</value>
+    <value>понедельник</value>
   </data>
   <data name="notdeleted" xml:space="preserve">
-    <value>Не удалено.</value>
+    <value>Не удалено</value>
   </data>
   <data name="sbrosclickbody" xml:space="preserve">
-    <value>Вы точно хотите сбросить все настройки? Их нельзя будет вернуть!</value>
+    <value>Вы действительно хотите очистить расписание? Его нельзя будет восстановить!</value>
   </data>
   <data name="sbrosclickheader" xml:space="preserve">
     <value>ВНИМАНИЕ</value>
   </data>
   <data name="settings" xml:space="preserve">
-    <value>параметри</value>
+    <value>настройки</value>
   </data>
   <data name="thursday" xml:space="preserve">
-    <value>четвер</value>
+    <value>четверг</value>
   </data>
   <data name="today" xml:space="preserve">
     <value>Сегодня </value>
   </data>
   <data name="trio" xml:space="preserve">
-    <value>уникальное трио - название чешское, заголовки украинские, ну а этот текст... русский!</value>
+    <value>к сведению: был смешной перевод,называвшийся [Prima], или[funx100].</value>
   </data>
   <data name="tuesday" xml:space="preserve">
-    <value>вівторок</value>
+    <value>вторник</value>
   </data>
   <data name="wednesday" xml:space="preserve">
-    <value>середа</value>
+    <value>среда</value>
   </data>
 </root>
