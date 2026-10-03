@@ -118,66 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="appHeader" xml:space="preserve">
-    <value>rozvrh - schedule</value>
+    <value>rozvrh - emploi du temps</value>
   </data>
   <data name="checklesson" xml:space="preserve">
-    <value>Check your input</value>
+    <value>Vérifiez vos données</value>
   </data>
   <data name="deleted" xml:space="preserve">
-    <value>Deleted.</value>
+    <value>Supprimé.</value>
   </data>
   <data name="deletesettings" xml:space="preserve">
-    <value>Clear schedule data</value>
+    <value>Effacer les données de l'emploi du temps</value>
   </data>
   <data name="enterlesson" xml:space="preserve">
-    <value>Enter</value>
+    <value>Saisir</value>
   </data>
   <data name="friday" xml:space="preserve">
-    <value>friday</value>
+    <value>vendredi</value>
   </data>
   <data name="lesson" xml:space="preserve">
-    <value>Lesson</value>
+    <value>Cours</value>
   </data>
   <data name="lesson1" xml:space="preserve">
-    <value>lesson.</value>
+    <value>cours.</value>
   </data>
   <data name="lesson24" xml:space="preserve">
-    <value>lessons.</value>
+    <value>cours.</value>
   </data>
   <data name="lessonoth" xml:space="preserve">
-    <value>lessons.</value>
+    <value>cours.</value>
   </data>
   <data name="lessontitle" xml:space="preserve">
-    <value>Enter the lesson title.</value>
+    <value>Entrez le nom du cours.</value>
   </data>
   <data name="monday" xml:space="preserve">
-    <value>monday</value>
+    <value>lundi</value>
   </data>
   <data name="notdeleted" xml:space="preserve">
-    <value>Not deleted</value>
+    <value>Non supprimé</value>
   </data>
   <data name="sbrosclickbody" xml:space="preserve">
-    <value>Do you really want to clear schedule data? You cannot restore it!</value>
+    <value>Voulez-vous vraiment effacer les données de l'emploi du temps ? Cette action est irréversible</value>
   </data>
   <data name="sbrosclickheader" xml:space="preserve">
-    <value>WARNING</value>
+    <value>AVERTISSEMENT</value>
   </data>
   <data name="settings" xml:space="preserve">
-    <value>settings</value>
+    <value>paramètres</value>
   </data>
   <data name="thursday" xml:space="preserve">
-    <value>thursday</value>
+    <value>jeudi</value>
   </data>
   <data name="today" xml:space="preserve">
-    <value>Today </value>
+    <value>Aujourd'hui </value>
   </data>
   <data name="trio" xml:space="preserve">
-    <value>in fact: there was a funny locale, called [Prima], or [funx100].</value>
+    <value>en fait : il y avait un paramètre régional amusant, appelé [Prima], ou [funx100].</value>
   </data>
   <data name="tuesday" xml:space="preserve">
-    <value>tuesday</value>
+    <value>mardi</value>
   </data>
   <data name="wednesday" xml:space="preserve">
-    <value>wednesday</value>
+    <value>mercredi</value>
   </data>
 </root>

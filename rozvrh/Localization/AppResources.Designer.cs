@@ -70,7 +70,7 @@ namespace rozvrh.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Check your enter.
+        ///   Looks up a localized string similar to Check your input.
         /// </summary>
         public static string checklesson {
             get {
@@ -88,7 +88,7 @@ namespace rozvrh.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clean schedule data.
+        ///   Looks up a localized string similar to Clear schedule data.
         /// </summary>
         public static string deletesettings {
             get {
@@ -178,7 +178,7 @@ namespace rozvrh.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Are you really wanna clean schedule data? You cannot restore it!.
+        ///   Looks up a localized string similar to Do you really want to clear schedule data? You cannot restore it!.
         /// </summary>
         public static string sbrosclickbody {
             get {
