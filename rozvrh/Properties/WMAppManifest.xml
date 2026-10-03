@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{da4a8da1-a43e-45d0-a8ae-ca381871ceb1}" Title="rozvrh" RuntimeType="Silverlight" Version="1.1.24.0" Genre="apps.normal" Author="130-й шифер" Description="rozvrh - школьное расписание с уникальным трио" Publisher="rozvrh">
+  <App xmlns="" ProductID="{da4a8da1-a43e-45d0-a8ae-ca381871ceb1}" Title="rozvrh" RuntimeType="Silverlight" Version="1.1.26.0" Genre="apps.normal" Author="130-й шифер" Description="rozvrh - школьное расписание с уникальным трио" Publisher="rozvrh">
     <IconPath IsRelative="true" IsResource="false">photo_2026-04-13_16-35-06.png</IconPath>
     <Capabilities>
     </Capabilities>
